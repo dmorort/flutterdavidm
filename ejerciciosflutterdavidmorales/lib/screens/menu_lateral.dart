@@ -5,6 +5,8 @@ import 'ejer1apar2.dart';
 import 'ejer1apar3.dart';
 import 'ejer1apar4.dart';
 import 'ejer1apar5.dart';
+import 'ejercicio6.dart';
+import 'ejercicio7.dart';
 
 class MenuLateral extends StatelessWidget {
   const MenuLateral({super.key});
@@ -15,8 +17,8 @@ class MenuLateral extends StatelessWidget {
       child: ListView(
         children: <Widget>[
           const UserAccountsDrawerHeader(
-            accountName: Text("Empresa"),
-            accountEmail: Text("micorreo@gmail.com"),
+            accountName: Text("David Morales Ortiz"),
+            accountEmail: Text("dmorort890@g.educaand.es"),
             decoration: BoxDecoration(
               image: DecorationImage(
                 image: NetworkImage(
@@ -83,6 +85,28 @@ class MenuLateral extends StatelessWidget {
               Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (BuildContext context) => const Enlace5(),
+                ),
+              );
+            },
+          ),
+          ListTile(
+            title: const Text("Ejer 2 Apartado 6"),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (BuildContext context) => const Enlace6(),
+                ),
+              );
+            },
+          ),
+          ListTile(
+            title: const Text("Ejer 2 Apartado 7"),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (BuildContext context) => const Enlace7(),
                 ),
               );
             },
