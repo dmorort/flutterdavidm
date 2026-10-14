@@ -7,6 +7,8 @@ import 'ejer1apar4.dart';
 import 'ejer1apar5.dart';
 import 'ejercicio6.dart';
 import 'ejercicio7.dart';
+import 'ejercicio8.dart';
+import 'ejercicio9.dart';
 
 class MenuLateral extends StatelessWidget {
   const MenuLateral({super.key});
@@ -107,6 +109,28 @@ class MenuLateral extends StatelessWidget {
               Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (BuildContext context) => const Enlace7(),
+                ),
+              );
+            },
+          ),
+          ListTile(
+            title: const Text("Ejer 2 Apartado 8"),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (BuildContext context) => const Enlace8(),
+                ),
+              );
+            },
+          ),
+          ListTile(
+            title: const Text("Ejer 2 Apartado 9"),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (BuildContext context) => const Enlace9(),
                 ),
               );
             },
