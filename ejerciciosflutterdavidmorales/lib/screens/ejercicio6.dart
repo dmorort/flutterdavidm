@@ -1,7 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:versatile_gradient_text/versatile_gradient_text.dart';
+import 'imports.dart';
 
 class Enlace6 extends StatelessWidget {
   const Enlace6({super.key});
@@ -51,6 +48,7 @@ class Enlace6 extends StatelessWidget {
           ),
         ],
       ),
+      drawer: const MenuLateral(),
     );
   }
 }

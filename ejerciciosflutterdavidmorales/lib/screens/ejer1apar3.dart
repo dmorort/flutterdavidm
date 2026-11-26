@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'imports.dart';
 
 class Enlace3 extends StatelessWidget {
   const Enlace3({super.key});
@@ -14,6 +14,7 @@ class Enlace3 extends StatelessWidget {
           Center(child: Image.asset("assets/ben.png")),
         ],
       ),
+      drawer: const MenuLateral(),
     );
   }
 }

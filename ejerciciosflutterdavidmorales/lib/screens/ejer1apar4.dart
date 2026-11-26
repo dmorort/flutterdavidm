@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'imports.dart';
 
 class Enlace4 extends StatelessWidget {
   const Enlace4({super.key});
@@ -16,6 +16,7 @@ class Enlace4 extends StatelessWidget {
           Icon(Icons.cut),
         ],
       ),
+      drawer: const MenuLateral(),
     );
   }
 }

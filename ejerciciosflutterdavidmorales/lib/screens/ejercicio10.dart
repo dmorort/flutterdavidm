@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'imports.dart';
 
 void main() {
   runApp(const Enlace10());
@@ -54,6 +54,7 @@ class Ejercicio10State extends State<Enlace10> {
           ],
         ),
       ),
+      drawer: const MenuLateral(),
     );
   }
 }

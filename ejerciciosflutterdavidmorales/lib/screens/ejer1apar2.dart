@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'imports.dart';
 
 class Enlace2 extends StatelessWidget {
   const Enlace2({super.key});
@@ -13,6 +13,7 @@ class Enlace2 extends StatelessWidget {
           Center(child: Text("David Morales Ortiz")),
         ],
       ),
+      drawer: const MenuLateral(),
     );
   }
 }

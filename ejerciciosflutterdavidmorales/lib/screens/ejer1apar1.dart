@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'imports.dart';
 
 class Enlace1 extends StatelessWidget {
   const Enlace1({super.key});
@@ -16,6 +15,7 @@ class Enlace1 extends StatelessWidget {
           style: GoogleFonts.anton(),
         ),
       ),
+      drawer: const MenuLateral(),
     );
   }
 }
