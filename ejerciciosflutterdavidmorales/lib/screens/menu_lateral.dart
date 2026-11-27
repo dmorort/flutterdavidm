@@ -98,6 +98,12 @@ class MenuLateral extends StatelessWidget {
               Navigator.pushNamed(context, "/ejercicio12");
             },
           ),
+          ListTile(
+            title: const Text("Apartado 13"),
+            onTap: () {
+              Navigator.pushNamed(context, "/ejercicio13");
+            },
+          ),
         ],
       ),
     );

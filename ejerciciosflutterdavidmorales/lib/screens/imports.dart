@@ -23,6 +23,7 @@ export 'ejercicio11/pfp.dart';
 export 'ejercicio11/pfplist.dart';
 export 'ejercicio11/title.dart';
 export 'themes/theme.dart';
+export "ejercicio13.dart";
 
 export 'dart:math';
 export 'dart:async';

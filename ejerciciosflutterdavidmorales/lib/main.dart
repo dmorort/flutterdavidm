@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         "/ejercicio10": (context) => Enlace10(),
         "/ejercicio11": (context) => Enlace11(),
         "/ejercicio12": (context) => Enlace12(),
-        //"/ejercicio13": (context) => Enlace13(),
+        "/ejercicio13": (context) => Enlace13(),
         //"/ejercicio14": (context) => Enlace14(),
         //"/ejercicio15": (context) => Enlace15(),
       },

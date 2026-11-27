@@ -68,6 +68,12 @@ flutter:
     - assets/shiva.png
     - assets/jb.png
     - assets/mario.png
+    - assets/goomarina.png
+    - assets/koops.png
+    - assets/flurrie.png
+    - assets/yoshi.png
+    - assets/viviana.png
+    - assets/bobbery.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
